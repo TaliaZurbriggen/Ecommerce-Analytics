@@ -55,5 +55,12 @@ namespace EcommerceReporting.Controllers
             var result = await _queryService.ObtenerVentasPorTrimestreAsync();
             return Ok(result);
         }
+
+        [HttpGet("predicciones")]
+        public async Task<IActionResult> GetPredicciones()
+        {
+            var result = await _queryService.ObtenerPrediccionesAsync();
+            return Ok(result);
+        }
     }
 }

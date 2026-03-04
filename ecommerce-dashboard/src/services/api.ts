@@ -5,7 +5,8 @@ import {
     VentasPorCategoriaDto,
     TopProductoDto,
     TopClientesDto,
-    VentasPorTrimestreDto
+    VentasPorTrimestreDto,
+    PrediccionDto
  } from "../types";
 
  const API_BASE = 'https://localhost:7269/api/analytics';
@@ -27,3 +28,6 @@ import {
 
  export const getVentasPorTrimestre = () =>
     axios.get<VentasPorTrimestreDto[]>(`${API_BASE}/ventas/por-trimestre`).then(r => r.data);
+
+ export const getPredicciones = () =>
+   axios.get<PrediccionDto[]>(`${API_BASE}/predicciones`).then(r => r.data);

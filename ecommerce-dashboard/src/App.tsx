@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { 
   getKpi, getVentasPorVes, getVentasPorCategoria,
-  getTopProductos, getTopClientes, getVentasPorTrimestre
+  getTopProductos, getTopClientes, getVentasPorTrimestre, getPredicciones
 } from "./services/api";
 import { 
   KpisDto, VentasPorMesDto, VentasPorCategoriaDto,
-  TopProductoDto, TopClientesDto, VentasPorTrimestreDto
+  TopProductoDto, TopClientesDto, VentasPorTrimestreDto, PrediccionDto
 } from "./types";
 import KpiCard from "./components/KpiCard";
 import VentasPorMesChart from "./components/VentasPorMesChart";
@@ -13,6 +13,7 @@ import VentasPorCategoriaCharts from "./components/VentasPorCategoriaChart";
 import TopProductosChart from "./components/TopProductosChart";
 import TopClientesTable from "./components/TopClientesTable";
 import VentasPorTrimestreChart from "./components/VentasPorTrimestreChart";
+import PrediccionChart from "./components/PrediccionChart";
 
 export default function App(){
   const [kpis, setKpis] = useState<KpisDto | null>(null);
@@ -21,6 +22,7 @@ export default function App(){
   const [topProductos, setTopProductos] = useState<TopProductoDto[]>([]);
   const [topClientes, setTopClientes] = useState<TopClientesDto[]>([]);
   const [ventasTrimestre, setVentasTrimestre] = useState<VentasPorTrimestreDto[]>([]);
+  const [predicciones, setPredicciones] = useState<PrediccionDto[]>([]);
   const [cargando, setCargando] = useState(true);
 
   useEffect(()=>{
@@ -30,14 +32,16 @@ export default function App(){
       getVentasPorCategoria(),
       getTopProductos(),
       getTopClientes(),
-      getVentasPorTrimestre()
-    ]).then(([k, vm, vc, tp, tc, vt]) =>{
+      getVentasPorTrimestre(),
+      getPredicciones()
+    ]).then(([k, vm, vc, tp, tc, vt, pred]) =>{
       setKpis(k);
       setVentasMes(vm);
       setVentasCategoria(vc);
       setTopProductos(tp);
       setTopClientes(tc);
       setVentasTrimestre(vt);
+      setPredicciones(pred);
       setCargando(false);   
     });
   }, []);
@@ -66,6 +70,7 @@ export default function App(){
           <KpiCard titulo="Unidades Vendidas" valor={kpis!.totalProductosVendidos.toString()} descripcion="Productos despachados" color="#ef4444" />
         </div>
 
+        <PrediccionChart data={predicciones} />
         {/* Gráficos fila 1 */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '24px' }}>
           <VentasPorMesChart data={ventasMes} />

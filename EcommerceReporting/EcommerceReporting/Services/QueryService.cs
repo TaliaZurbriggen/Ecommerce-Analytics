@@ -162,7 +162,7 @@ namespace EcommerceReporting.Services
             }
             return resultado;
         }
-
+        
         public async Task<List<VentasPorTrimestreDto>> ObtenerVentasPorTrimestreAsync()
         {
             using var conn = new SqlConnection (_connectionString);
@@ -194,5 +194,33 @@ namespace EcommerceReporting.Services
             }
             return resultado;
         }
+
+        public async Task<List<PrediccionDto>> ObtenerPrediccionesAsync() 
+        {
+            using var conn = new SqlConnection (_connectionString);
+            await conn.OpenAsync();
+
+            var cmd = new SqlCommand(@"
+                SELECT mes, nombre_mes, anio, total_predicho, tipo
+                FROM FactPredicciones
+                ORDER BY anio, mes", conn);
+
+            var resultado = new List<PrediccionDto>();
+            using var reader = await cmd.ExecuteReaderAsync();
+
+            while (await reader.ReadAsync())
+            {
+                resultado.Add(new PrediccionDto
+                {
+                    Mes = reader.GetByte(0),
+                    NombreMes = reader.GetString(1),
+                    Anio = reader.GetInt16(2),
+                    TotalVendido = reader.GetDecimal(3),
+                    Tipo = reader.GetString(4)
+                });
+            }
+            return resultado;
+        }
+
     }
 }

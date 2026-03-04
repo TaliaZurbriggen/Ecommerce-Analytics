@@ -41,3 +41,11 @@ export interface VentasPorTrimestreDto{
     totalVendido: number;
     cantidadOrdenes: number;
 }
+
+export interface PrediccionDto{
+    mes: number;
+    nombreMes: string;
+    anio: number;
+    totalVendido: number;
+    tipo: string;
+}

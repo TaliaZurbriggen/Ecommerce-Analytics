@@ -49,4 +49,13 @@
         public decimal TotalVendido { get; set; }
         public int CantidadOrdenes { get; set; }
     }
+
+    public class PrediccionDto
+    {
+        public int Mes {  get; set; }
+        public string NombreMes {  get; set; } = string.Empty;
+        public int Anio { get; set; } 
+        public decimal TotalVendido { get; set; }
+        public string Tipo {  get; set; } = string.Empty;
+    }
 }
