@@ -1,0 +1,9 @@
+# .NET
+**/bin/
+**/obj/
+
+# React
+**/node_modules/
+
+# Visual Studio
+**/.vs/

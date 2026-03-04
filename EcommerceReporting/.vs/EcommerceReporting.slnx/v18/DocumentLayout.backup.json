@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|c:\\users\\usuario\\onedrive\\documentos\\ecommerce\\ecommercereporting\\ecommercereporting\\services\\queryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|solutionrelative:ecommercereporting\\services\\queryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|c:\\users\\usuario\\onedrive\\documentos\\ecommerce\\ecommercereporting\\ecommercereporting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|solutionrelative:ecommercereporting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|c:\\users\\usuario\\onedrive\\documentos\\ecommerce\\ecommercereporting\\ecommercereporting\\models\\reportmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|solutionrelative:ecommercereporting\\models\\reportmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|c:\\users\\usuario\\onedrive\\documentos\\ecommerce\\ecommercereporting\\ecommercereporting\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|solutionrelative:ecommercereporting\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|c:\\users\\usuario\\onedrive\\documentos\\ecommerce\\ecommercereporting\\ecommercereporting\\ecommercereporting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4AA68FB-7586-6D64-A8FC-64C63EC11D51}|EcommerceReporting\\EcommerceReporting.csproj|solutionrelative:ecommercereporting\\ecommercereporting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Program.cs",
+              "RelativeDocumentMoniker": "EcommerceReporting\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Program.cs",
+              "RelativeToolTip": "EcommerceReporting\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:18:48.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueryService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Services\\QueryService.cs",
+              "RelativeDocumentMoniker": "EcommerceReporting\\Services\\QueryService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Services\\QueryService.cs",
+              "RelativeToolTip": "EcommerceReporting\\Services\\QueryService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwJoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:14:55.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportModels.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Models\\ReportModels.cs",
+              "RelativeDocumentMoniker": "EcommerceReporting\\Models\\ReportModels.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Models\\ReportModels.cs",
+              "RelativeToolTip": "EcommerceReporting\\Models\\ReportModels.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA+wDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:14:39.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "EcommerceReporting\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "EcommerceReporting\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA9wDcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:13:39.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EcommerceReporting.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\EcommerceReporting.csproj",
+              "RelativeDocumentMoniker": "EcommerceReporting\\EcommerceReporting.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\Ecommerce\\EcommerceReporting\\EcommerceReporting\\EcommerceReporting.csproj",
+              "RelativeToolTip": "EcommerceReporting\\EcommerceReporting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-02T17:14:02.496Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

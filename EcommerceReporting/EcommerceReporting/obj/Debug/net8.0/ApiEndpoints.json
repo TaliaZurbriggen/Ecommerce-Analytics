@@ -1,0 +1,62 @@
+[
+  {
+    "ContainingType": "EcommerceReporting.Controllers.AnalyticsController",
+    "Method": "GetClientesTop",
+    "RelativePath": "api/Analytics/clientes/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceReporting.Controllers.AnalyticsController",
+    "Method": "GetKpis",
+    "RelativePath": "api/Analytics/kpis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceReporting.Controllers.AnalyticsController",
+    "Method": "GetTopProductos",
+    "RelativePath": "api/Analytics/productos/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceReporting.Controllers.AnalyticsController",
+    "Method": "GetVentasPorCategoria",
+    "RelativePath": "api/Analytics/ventas/por-categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceReporting.Controllers.AnalyticsController",
+    "Method": "GetVentasPorMes",
+    "RelativePath": "api/Analytics/ventas/por-mes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceReporting.Controllers.AnalyticsController",
+    "Method": "GetVentasPorTrimestre",
+    "RelativePath": "api/Analytics/ventas/por-trimestre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
